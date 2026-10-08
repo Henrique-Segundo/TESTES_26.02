@@ -17,7 +17,11 @@ Aluno: Henrique Segundo
 #### Casos de teste
 ##### Caminhos
 ##### Entradas e saídas
+
 ### Diagrama 2
+
+![Imagem Diagrama 2](Diagrama%202.png)
+
 #### Diagrama imagem:
 #### Complexidade ciclomática:
 ##### Método 1 - Regiões no Grafo de controle

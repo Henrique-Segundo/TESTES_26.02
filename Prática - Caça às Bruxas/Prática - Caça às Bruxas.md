@@ -5,7 +5,11 @@ Profa. Marília Mendes \
 Aluno: Henrique Segundo
 
 ### Diagrama 1
+
 #### Diagrama imagem:
+
+![Imagem Diagrama 1](Diagrama%201.png)
+
 #### Complexidade ciclomática:
 ##### Método 1 - Regiões no Grafo de controle
 ##### Método 2 - Formula
@@ -19,13 +23,14 @@ Aluno: Henrique Segundo
 ##### Método 1 - Regiões no Grafo de controle
 ##### Método 2 - Formula
 ##### Método 3 - Estruturas de decisão
-#### Casos de teste
+#### Casos de teste:
 ##### Caminhos
 ##### Entradas e saídas
 
 ### Diagrama 3
 
 #### Diagrama imagem:
+
 ![Imagem diagrama 3](Diagrama%203.png)
 
 #### Complexidade ciclomática:
@@ -44,7 +49,7 @@ C = E - N + 2 -> C = 12 - 10 + 2 -> 4
 
 Estrutura de decisão + 1 -> 3 + 1 -> 4
 
-#### Casos de teste
+#### Casos de teste:
 
 ##### Caminhos
 

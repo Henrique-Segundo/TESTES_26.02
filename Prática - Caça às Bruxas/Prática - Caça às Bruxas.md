@@ -70,7 +70,11 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 | 4    | 2         | 4           | 80        | null           | True  |
 
 ### Diagrama 4
+
 #### Diagrama imagem:
+
+![Imagem diagrama 4](Diagrama%204.png)
+
 #### Complexidade ciclomática:
 ##### Método 1 - Regiões no Grafo de controle
 ##### Método 2 - Formula

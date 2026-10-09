@@ -184,8 +184,13 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 #### Casos de teste
 ##### Caminhos
 ##### Entradas e saídas
+
 ### Diagrama 6
+
 #### Diagrama imagem:
+
+![Imagem Diagrama 6](Diagrama%206.png)
+
 #### Complexidade ciclomática:
 ##### Método 1 - Regiões no Grafo de controle
 ##### Método 2 - Formula

@@ -140,12 +140,41 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 ![Imagem diagrama 4](Diagrama%204.png)
 
 #### Complexidade ciclomática:
+
 ##### Método 1 - Regiões no Grafo de controle
+
+Área interna: R1,R2,R3
+Área externa: R4
+Total: 4
+
 ##### Método 2 - Formula
+
+C = E - N + 2 -> C = 10 - 8 + 2 -> 4
+
 ##### Método 3 - Estruturas de decisão
+
+Estrutura de decisão + 1 -> 3 + 1 -> 4
+
 #### Casos de teste
+
 ##### Caminhos
+
+| Caso | Caminho              |
+|------|----------------------|
+| 1    | N1,N2,N3,N8          |
+| 2    | N1,N2,N4,N5,N8       |
+| 3    | N1,N2,N4,N6,N7,N8    |
+| 4    | N1,N2,N4,N6,N6,N7,N8 |
+
 ##### Entradas e saídas
+
+| Caso | n | return |
+|------|---|--------|
+| 1    | 0 | 0      |
+| 2    | 2 | 1      |
+| 3    | 3 | 2      |
+| 4    | 4 | 3      |
+
 ### Diagrama 5
 #### Diagrama imagem:
 #### Complexidade ciclomática:

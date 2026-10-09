@@ -2,7 +2,7 @@
 
 Disciplina Testes de Software Aplicado \
 Profa. Marília Mendes \
-Aluno: Henrique Segundo
+Aluno: Henrique Segundo, Antônio Pedro, João Pedro, Luis Henrique
 
 ### Diagrama 1
 

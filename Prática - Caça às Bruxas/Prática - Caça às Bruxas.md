@@ -40,13 +40,13 @@ Estrutura de decisão + 1 -> 4 + 1 -> 5
 
 ##### Entradas e saídas
 
-| Caso | PrimeiroNumero | SegundoNumero | Resultado |
-|------|----------------|---------------|-----------|
-| 1    |                |               |           |
-| 2    |                |               |           |
-| 3    |                |               |           |
-| 4    |                |               |           |
-| 5    |                |               |           |
+| Caso | PrimeiroNumero | SegundoNumero | Resultado                         |
+|------|----------------|---------------|-----------------------------------|
+| 1    | 2              | -1            | 0.5                               |
+| 2    | 2              | 3             | 8                                 |
+| 3    | 0              | 0             | "A potência é um valor finito", 1 |
+| 4    | 5              | 0             | 1                                 |
+| 5    | 0              | -1            | "A potência é um valor finito", 0 |
 
 ### Diagrama 2
 
@@ -85,11 +85,10 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 
 | Caso | array | valor | retorno |
 |------|-------|-------|---------|
-| 1    |       |       |         |
-| 2    |       |       |         |
-| 3    |       |       |         |
-| 4    |       |       |         |
-| 5    |       |       |         |
+| 1    | 0     | 1     | -1      |
+| 2    | 3     | 3     | 0       |
+| 3    | 5     | 7     | -1      |
+| 4    | 5     | 1     | -1      |
 
 ### Diagrama 3
 
@@ -210,12 +209,13 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 
 ##### Entradas e saídas
 
-| Caso | n | Saida |
-|------|---|-------|
-| 1    | 0 | NA    |
-| 2    |   | NA    |
-| 3    |   | NA    |
-| 4    |   | NA    |
+| Caso | arr     | Saida   |
+|------|---------|---------|
+| 1    | [1]     | [1]     |
+| 2    | [2,1]   | [1,2]   |
+| 3    | [1,2]   | [1,2]   |
+| 4    | [3,2,1] | [1,2,3] |
+Obs: Valores resultante, a função não tem retorno direto (void function)
 
 ### Diagrama 6
 
@@ -251,9 +251,9 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 
 ##### Entradas e saídas
 
-| Caso | x | y | z (ao final) |
-|------|---|---|--------------|
-| 1    |   |   |              |
-| 2    |   |   |              |
-| 3    |   |   |              |
-| 4    |   |   |              |
+| Caso | x | y  | z (ao final) |
+|------|---|----|--------------|
+| 1    | 2 | -2 | 0.25         |
+| 2    | 2 | 2  | 4            |
+| 3    | 2 | 0  | 1            |
+| 4    | 2 | -1 | 0.5          |

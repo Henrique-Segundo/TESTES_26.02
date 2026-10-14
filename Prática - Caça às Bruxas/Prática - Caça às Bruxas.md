@@ -44,9 +44,9 @@ Estrutura de decisão + 1 -> 4 + 1 -> 5
 |------|----------------|---------------|-----------------------------------|
 | 1    | 2              | -1            | 0.5                               |
 | 2    | 2              | 3             | 8                                 |
-| 3    | 0              | 0             | "A potência é um valor finito", 1 |
+| 3    | 0              | 0             | "A potência é um valor finito",   |
 | 4    | 5              | 0             | 1                                 |
-| 5    | 0              | -1            | "A potência é um valor finito", 0 |
+| 5    | 0              | -1            | "A potência é um valor finito",   |
 
 ### Diagrama 2
 
@@ -85,10 +85,10 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 
 | Caso | array | valor | retorno |
 |------|-------|-------|---------|
-| 1    | 0     | 1     | -1      |
-| 2    | 3     | 3     | 0       |
-| 3    | 5     | 7     | -1      |
-| 4    | 5     | 1     | -1      |
+| 1    | 0     | 5     | -1      |
+| 2    | [4]   | 4     | 0       |
+| 3    | [4]   | 9     | -1      |
+| 4    | [4]   | 2     | -1      |
 
 ### Diagrama 3
 
@@ -148,7 +148,7 @@ Total: 4
 
 ##### Método 2 - Formula
 
-C = E - N + 2 -> C = 10 - 8 + 2 -> 4
+C = E - N + 2 -> C = 11 - 9 + 2 -> 4
 
 ##### Método 3 - Estruturas de decisão
 
@@ -242,12 +242,12 @@ Estrutura de decisão + 1 -> 3 + 1 -> 4
 
 ##### Caminhos
 
-| Caso | Caminho                     |
-|------|-----------------------------|
-| 1    | N1,N2,N3,N5,N6,N8,N10       |
-| 2    | N1,N2,N4,N5,N6,N8,N10       |
-| 3    | N1,N2,N3,N5,N6,N8,N9,N10    |
-| 4    | N1,N2,N3,N5,N6,N7,N6,N8,N10 |
+| Caso | Caminho                           |
+|------|-----------------------------------|
+| 1    | N1,N2,N3,N5,N6,N7,N6,N7,N6,N8,N10 |
+| 2    | N1,N2,N4,N5,N6,N7,N6,N7,N6,N8,N10 |
+| 3    | N1,N2,N4,N5,N6,N8,N10             |
+| 4    | N1,N2,N3,N5,N6,N7,N6,N8,N9,N10    |
 
 ##### Entradas e saídas
 
